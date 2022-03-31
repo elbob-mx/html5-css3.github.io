@@ -1,0 +1,86 @@
+      body,html {
+        background-color: #212121; /* almost black */
+      }
+
+      /* titulo principal ---------------> */
+
+      .main-header {
+        font-size: 1.5em;
+        text-align: center;
+        align-items: center;
+        color: #CF9C65;
+      }
+
+      /* banner imagen principal ---------------> */
+
+      #banner-prin {
+        width: 100%;
+      }
+
+      /* cuerpo principal ---------------> */
+
+      .titulo-principal {
+        text-align: center;
+        color: #CF9C65;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      
+      p {
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        color: lightgrey;
+        font-weight: 300;
+      }
+      
+      .principal {
+        padding: 20px 50px 20px 50px;
+        margin-bottom: 30px;
+      }
+
+      /* seccion secundaria ---------------> */ 
+      
+      .titulo-secundario {
+        text-align: center;
+        color: #CF9C65;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 40px;
+      }
+
+      #mision {
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.3em;
+        font-weight: 300;
+      }
+
+      .diferenciales {
+        align-items: center;
+        justify-content: center;
+        background-color: #212121;
+        padding: 30px;
+      }
+
+      ul {
+        display: inline-block;
+        vertical-align: top;
+        width: 20%;
+        margin-right: 15%;
+      }
+
+      .item {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+        text-align: left;
+        list-style: none;
+        color: #dabfa2;
+      }
+
+      .imgDiferenciales {
+        width: 50%;
+      }
+
+      /* definiciones -----------------> */
+
+      strong, em {
+        color: #CF9C65;
+      }
