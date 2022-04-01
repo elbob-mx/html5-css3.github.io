@@ -30,11 +30,39 @@
     </header>
 
       <main>
-        <div>
 
-          test
+        <form action="">
 
-        </div>
+          <label for="nombreapellido">Nombre y apellido: </label>
+          <input type="text" id="nombreapellido" class="input-padron">
+
+          <label for="correousuario">Correo electrónico: </label>
+          <input type="text" id="correousuario" class="input-padron">
+
+          <label for="telefono">Teléfono: </label>
+          <input type="text" id="telefono" class="input-padron">
+
+          <label for="mensajeusuario">Mensaje: </label>
+          <textarea name="" id="mensajeusuario" cols="55" rows="7" class="input-padron"></textarea>
+
+          <div class="form">
+
+            <h3>¿Cómo le gustaría ser contactado?</h3>
+  
+            <label for="radioemail"><input type="radio" name="contactousuario" value="email" id="radioemail" class="radiotick">e-mail</label>            
+  
+            <label for="radiotelefono"><input type="radio" name="contactousuario" value="telefono" id="radiotelefono" class="radiotick">Teléfono</label>            
+  
+            <label for="radiowhatsapp"><input type="radio" name="contactousuario" value="whatsapp" id="radiowhatsapp" class="radiotick">Whatsapp</label>            
+            
+          </div>
+
+          <label for="" class="checkbox"><input type="checkbox">¿Le gustaría recibir novedades de la <em>Barbería Alura?</em></label>
+          
+          <input type="submit" value="Enviar">
+
+        </form>
+
       </main>
       <hr>
     <footer>
