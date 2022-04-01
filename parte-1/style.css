@@ -1,86 +1,141 @@
-      body,html {
-        background-color: #212121; /* almost black */
-      }
+body, html {
+  background-color: #212121; /* almost black */
+  margin: auto;
+}
 
-      /* titulo principal ---------------> */
+header {
+  padding: 20px 0;
+}
 
-      .main-header {
-        font-size: 1.5em;
-        text-align: center;
-        align-items: center;
-        color: #CF9C65;
-      }
+.container {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
 
-      /* banner imagen principal ---------------> */
+nav {
+  position: absolute;
+  top: 95px;
+  right: 0;
+}
 
-      #banner-prin {
-        width: 100%;
-      }
+nav, li {
+  display: inline;
+  margin: 0 0 0 20px;
+}
 
-      /* cuerpo principal ---------------> */
+nav, a {
+  color: whitesmoke;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  /* font-size:calc(12px + 1.5vw); */
+  font-size: 22px;
+  margin: 0 10px;
+}
 
-      .titulo-principal {
-        text-align: center;
-        color: #CF9C65;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-      }
+nav a:hover {
+  color: #cf9c65;
+  font-family: "Roboto Slab", serif;
+  /* font-size:calc(12px + 1.5vw); */
+  font-size: 22px;
+}
 
-      
-      p {
-        font-family: 'Roboto Slab', serif;
-        text-align: center;
-        color: lightgrey;
-        font-weight: 300;
-      }
-      
-      .principal {
-        padding: 20px 50px 20px 50px;
-        margin-bottom: 30px;
-      }
+nav a:active {
+  color: #ff8402;
+  font-family: "Roboto Slab", serif;
+  /* font-size:calc(12px + 1.5vw); */
+  font-size: 22px;
+}
 
-      /* seccion secundaria ---------------> */ 
-      
-      .titulo-secundario {
-        text-align: center;
-        color: #CF9C65;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        margin-bottom: 40px;
-      }
+.productos {
+  width: 940px;
+  margin: 0 auto;
+  /* padding: 10px; */
+}
 
-      #mision {
-        font-family: 'Roboto Slab', serif;
-        font-size: 1.3em;
-        font-weight: 300;
-      }
+.productos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  /* height: 480px; */
+  vertical-align: top;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+}
 
-      .diferenciales {
-        align-items: center;
-        justify-content: center;
-        background-color: #212121;
-        padding: 30px;
-      }
+.productos li:hover {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  /* height: 480px; */
+  vertical-align: top;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid #cf9c65;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+}
 
-      ul {
-        display: inline-block;
-        vertical-align: top;
-        width: 20%;
-        margin-right: 15%;
-      }
+.productos li:active {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  /* height: 480px; */
+  vertical-align: top;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid #ff8402;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+}
 
-      .item {
-        font-family: 'Roboto Slab', serif;
-        font-weight: 500;
-        text-align: left;
-        list-style: none;
-        color: #dabfa2;
-      }
+.productos h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
 
-      .imgDiferenciales {
-        width: 50%;
-      }
+.prod-descripcion {
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px;
+}
 
-      /* definiciones -----------------> */
+.prod-precio {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 15px;
+}
 
-      strong, em {
-        color: #CF9C65;
-      }
+.logo-footer {
+  height: 90px;
+  margin: 0 30px 0 0;
+}
+
+hr {
+  margin: 100px 50px 0 50px;
+}
+
+.copyright {
+  color: lightgrey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+  display: flex;  
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  /* background: url(imagenes/bg.jpg); */
+}
