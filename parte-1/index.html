@@ -1,63 +1,81 @@
 <!DOCTYPE html>
-<html lang="es">
+< lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbería Alura</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style-home.css" />
     <!-- <link rel="stylesheet" href="reset.css" /> -->
   </head>
 
   <body>
-
     <header class="main-header">
-     <h1 class="logo"><img src="imagenes/logo-blanco.png" alt="logo-barberia-alura"></h1>
+      <h1 class="logo"><img src="imagenes/logo-blanco.png" alt="logo-barberia-alura" /></h1>
     </header>
 
-    <img id="banner-prin" src="banner/banner.jpg" alt="barber-shop">
+    <img id="banner-prin" src="banner/banner.jpg" alt="barber-shop" />
 
-    <div class="principal">
-      <h1 class="titulo-principal">Sobre la Barbería Alura</h1>
+    <main>
+      <section class="principal">
 
-      <p>
-        En el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay
-        de mejor para su cabello y barba.<br>Fundada en 2020, la Barbería Alura ya es destaque en la
-        ciudad y conquista nuevos clientes diariamente.
-      </p>
-      <br>
+        <h1 class="titulo-principal">Sobre la Barbería Alura</h1>
+        
+        <img class="utensilios" src="imagenes/utensilios.jpg" alt="utensilios-barberia">
+      
+        <p>
+          Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que
+          hay de mejor para su cabello y barba.<br />Fundada en 2020, la Barbería Alura ya es destaque
+          en la ciudad y conquista nuevos clientes diariamente.
+        </p>
+        <br />
+      
+        <p id="mision">
+          NUESTRA MISIÓN ES: <br />
+          <strong><em>"Proporcionar autoestima y calidad de vida a nuestros clientes".</em></strong>
+        </p>
+        <br />
+      
+        <p>
+          Ofrecemos profesionales experimentados que están constantemente observando los cambios y
+          movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas
+          tendencias.<br />El atendimiento posee un padrón de excelencia y agilidad, garantizando
+          calidad y satisfacción de nuestros clientes.
+        </p>
+        <br />
+      </section>
 
-      <p id="mision">
-        NUESTRA MISIÓN ES: <br>
-        <strong><em>"Proporcionar autoestima y calidad de vida a nuestros clientes".</em></strong>
-      </p>
-      <br>
+      <section class="mapa">
+        <h2 class="titulo-principal">Nuestra Ubicación</h2>
+        <p>Nuestro establecimiento está ubicado en el corazón de la cuidad:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.1963662050557!2d-103.39066908457988!3d20.70224920421923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae4e98d5453d%3A0xc4fdd3929a2ecbd1!2sCETI%20Plantel%20Colomos!5e0!3m2!1ses-419!2smx!4v1649102502392!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
 
-      <p>
-        Ofrecemos profesionales experimentados que están constantemente observando los cambios y
-        movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas
-        tendencias.<br>El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y
-        satisfacción de nuestros clientes.
-      </p>
-      <br>
-    </div>
+    <section class="diferenciales">
 
-      <div class="diferenciales">
+      <h2 class="titulo-secundario">Diferenciales</h2>
+      <ul>
+        <li class="item">Atencíon personalizada</li>
+        <li class="item">Espacio diferenciado</li>
+        <li class="item">Ubicación</li>
+        <li class="item">Profesionales calificados</li>
+      </ul>
+      
+      <img src="diferenciales/diferenciales.jpg" alt="diferenciales" class="imgDiferenciales" />
+      
+      <div class="video">
 
-        <h2 class="titulo-secundario">Diferenciales</h2>
-          <ul>
-            <li class="item">Atencíon personalizada</li>
-            <li class="item">Espacio diferenciado</li>
-            <li class="item">Ubicación</li>
-            <li class="item">Profesionales calificados</li>
-          </ul>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/66XPYk9bdhc?controls=0&amp;start=74" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <img src="diferenciales/diferenciales.jpg" alt="diferenciales" class="imgDiferenciales">
+      </div>
 
-    </div>
-
+    </section>
+   </main>
   </body>
 </html>
