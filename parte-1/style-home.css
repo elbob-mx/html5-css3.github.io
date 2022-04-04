@@ -18,7 +18,17 @@ html {
   width: 100%;
 }
 
+.descripcion-foto{
+  font-style: italic;
+  font-size: 0.7em;
+}
+
 /* cuerpo principal ---------------> */
+
+/* h1:first-letter {
+  font-weight: bold;
+  font-size: 1.4em;
+} */
 
 .titulo-principal {
   text-align: center;
@@ -27,7 +37,31 @@ html {
   clear: left;
 }
 
+/* main > p {
+  background-color: lightseagreen;
+} */
+
+/* img + p {
+  background-color: red;
+} */
+
+/* img ~ p {
+  background-color: purple;
+} */
+
+/* .principal p:not(#mision) {
+  background-color: lime;
+} */
+
 p {
+  font-family: "Roboto Slab", serif;
+  text-align: left;
+  color: lightgrey;
+  font-weight: 300;
+}
+
+#ubicado:first-line {
+  font-style: italic;
   font-family: "Roboto Slab", serif;
   text-align: center;
   color: lightgrey;
@@ -40,7 +74,7 @@ p {
 }
 
 .utensilios {
-  width: 120px;
+  width: calc(40% - (26px * 4));
   float: left;
   margin: 0 20px 20px 0;
 }
@@ -78,6 +112,22 @@ p {
   padding: 30px;
 }
 
+.contenido-dif {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.lista-dif {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.imagen-dif {
+  width: 100%;
+}
+
 ul {
   display: inline-block;
   vertical-align: top;
@@ -85,7 +135,12 @@ ul {
   margin-right: 15%;
 }
 
+.item:before {
+  content: "✯ ";
+}
+
 .item {
+  line-height: 1.5;
   font-family: "Roboto Slab", serif;
   font-weight: 500;
   text-align: left;
@@ -93,12 +148,11 @@ ul {
   color: #dabfa2;
 }
 
-.imgDiferenciales {
-  width: 50%;
-  margin: 30px;
-  align-items: center;
-  justify-content: center;
+.item:first-child {
+  /* font-weight: bold; */
+  color: white;
 }
+
 
 .video {
   width: 560px;
