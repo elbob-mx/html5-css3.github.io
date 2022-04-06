@@ -35,7 +35,7 @@ a {
   font-family: "Roboto Slab", serif;
   text-decoration: none;
   /* font-size:calc(12px + 1.5vw); */
-  font-size: 22px;
+  font-size: max(1em, 22px);
   margin: 0 10px;
 }
 
@@ -43,14 +43,14 @@ nav a:hover {
   color: #cf9c65;
   font-family: "Roboto Slab", serif;
   /* font-size:calc(12px + 1.5vw); */
-  font-size: 22px;
+  font-size: max(1em, 22px);
 }
 
 nav a:active {
   color: #ff8402;
   font-family: "Roboto Slab", serif;
   /* font-size:calc(12px + 1.5vw); */
-  font-size: 22px;
+  font-size: max(1em, 22px);
 }
 
 /* banner imagen principal ---------------> */
@@ -61,7 +61,7 @@ nav a:active {
 
 .descripcion-foto{
   font-style: italic;
-  font-size: 0.7em;
+  font-size: max(0.7em, 12px);
   text-align: center;
 }
 
@@ -125,7 +125,7 @@ p {
 
 #mision {
   font-family: "Roboto Slab", serif;
-  font-size: 1.3em;
+  font-size: max(1em, 22px);
   font-weight: 300;
 }
 
@@ -142,10 +142,11 @@ p {
 }
 
 .lista-dif {
-  width: 40%;
+  width: auto;
   display: inline-block;
   vertical-align: top;
   text-align: center;
+  font-size: max(1em, 18px);
 }
 
 .imagen-dif {
@@ -166,6 +167,7 @@ ul {
 .item {
   line-height: 1.5;
   font-family: "Roboto Slab", serif;
+  font-size: max(1em, 18px);
   font-weight: 500;
   text-align: left;
   list-style: none;
