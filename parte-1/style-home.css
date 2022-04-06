@@ -2,10 +2,7 @@ body,
 html {
   background-color: #212121; /* almost black */
   position: absolute;
-  width: 90%;
-    width: -moz-available;
-    width: -webkit-fill-available;
-    width: fill-available;
+  width: -webkit-fill-available;
 }
 
 /* titulo principal ---------------> */
@@ -229,7 +226,15 @@ footer {
   }
   
   .container, .principal, .mapa, .contenido-dif, .video {
-    width: auto;
+    width: 90%;
+    position: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item, .lista-dif {
+    font-size: 12px;
+    width: 90%;
   }
 }
 
