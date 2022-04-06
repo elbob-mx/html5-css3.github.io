@@ -1,8 +1,11 @@
 body,
 html {
   background-color: #212121; /* almost black */
-  margin: auto;
-  /* margin: 0 20px; */
+  position: absolute;
+  width: 100%;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: fill-available;
 }
 
 header {
@@ -252,4 +255,18 @@ footer {
   flex-wrap: nowrap;
   align-items: center;
   /* background: url(imagenes/bg.jpg); */
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    text-align: center;
+  }
+  
+  nav {
+    position: static;
+  }
+  
+  .container, .principal, .mapa, .contenido-dif, .video {
+    width: auto;
+  }
 }
